@@ -1,5 +1,14 @@
+#algoritma A
 x_awal1 = 10000.0
 x_selanjutnya1 =  0.0001
 for _ in range (5):
   x_awal1 += x_selanjutnya1
 print(f"hasil algoritma A: {x_awal1}")
+
+#algoritma B
+Total2 = 0.0
+x_awal2 =  0.0001
+for _ in range (5):
+  Total2 += x_awal2
+Total2 += 10000.0
+print(f"hasil algoritma B: {Total2}")
